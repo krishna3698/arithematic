@@ -1,0 +1,69 @@
+.questions{
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 grey;
+    width: 550px;
+    margin: auto;
+    padding: 25px;
+    margin-top: 15px;
+    background-color: rgb(248, 245, 245);
+
+}
+.rule{
+    border:2px solid cadetblue;
+    width: 100%;
+    
+}
+.displayed-question{
+    margin: 10px;
+    padding: 10px;
+}
+
+.num1,.num2,.operator{
+    /* color: gainsboro; */
+    /* background-color: cadetblue; */
+    color:rgb(248, 245, 245) ;
+    background-color: rgb(16, 109, 29);
+    border: 1px solid teal;
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px 2.5px 0 gray ;
+}
+.question-num,.question-head{    
+    color: rgb(16, 109, 29);
+}
+
+.user-answer{
+    font-weight: bold;
+    /* color: cadetblue; */
+    color: rgb(16, 109, 29);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.user-input{
+    border-radius: 10px;
+    border: 1px solid cadetblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nxt-button{
+    width: 100px;
+    background-color: rgb(16, 109, 29);
+    color: gainsboro;
+}
+.nxt-button:hover{
+    background-color: rgb(29, 150, 18);
+}
+.score{
+    color: rgb(16, 109, 29);
+    margin: 5px;
+    padding: 5px;
+}
